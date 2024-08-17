@@ -10,7 +10,7 @@ function App() {
         return (
             <>
                 <img src={dog1Image} className="logo" alt="Ketchup"/>
-                <h1>Ketchup</h1>
+                <h1>Dog</h1>
             </>
         )
     }
@@ -19,7 +19,7 @@ function App() {
         return (
             <>
                 <img src={dog2Image} className="logo" alt="Ketchup"/>
-                <h1>Ketchup</h1>
+                <h1>Dog Dog</h1>
             </>
         )
     }
@@ -28,7 +28,7 @@ function App() {
         return (
             <>
                 <img src={dog3Image} className="logo" alt="Ketchup"/>
-                <h1>Ketchup</h1>
+                <h1>Dog Dog Dog</h1>
             </>
         )
     }
