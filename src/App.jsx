@@ -3,6 +3,7 @@ import dog2Image from '/dog2.jpg';
 import dog3Image from '/dog3.jpg';
 import catsupImage from '/catsup.png';
 import './App.css'
+import Footer from "./Footer.jsx";
 
 function App() {
     if (window.location.hostname === 'wongforjudge.com') {
@@ -11,6 +12,7 @@ function App() {
             <>
                 <img src={dog1Image} className="logo" alt="Ketchup"/>
                 <h1>Dog</h1>
+                <Footer />
             </>
         )
     }
@@ -20,6 +22,7 @@ function App() {
             <>
                 <img src={dog2Image} className="logo" alt="Ketchup"/>
                 <h1>Dog Dog</h1>
+                <Footer />
             </>
         )
     }
@@ -29,6 +32,7 @@ function App() {
             <>
                 <img src={dog3Image} className="logo" alt="Ketchup"/>
                 <h1>Dog Dog Dog</h1>
+                <Footer />
             </>
         )
     }
@@ -36,6 +40,7 @@ function App() {
         <>
             <img src={catsupImage} className="logo" alt="Ketchup"/>
             <h1>Ketchup</h1>
+            <Footer />
         </>
     )
 }
